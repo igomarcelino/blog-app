@@ -1,0 +1,36 @@
+*{
+    color: white;
+}
+
+.containerBanner{
+    padding-left: 3%;
+    background-color: black;
+}
+
+.containerBanner a{
+    text-decoration: none;
+}
+
+h1{
+    padding-top: 2%;
+    font-family: cursive;
+    font-size: 3rem;    
+}
+
+h3{
+    font-family: math;
+    opacity: 0.8;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 23px;
+    margin-bottom: 9%;
+    margin-left: 3px;
+
+}
+
+.menu{
+    margin-left: 64%;
+}

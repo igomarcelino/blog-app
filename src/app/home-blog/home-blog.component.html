@@ -1,0 +1,11 @@
+<div class="container">
+    <h1>Bem-vindo ao Blog de Carros</h1>
+    <p>Confira as últimas notícias, avaliações e informações sobre carros aqui!</p>
+  
+    
+    <div *ngFor="let article of articles" class="article">
+      <h2>{{ article.title }}</h2>
+      <p>{{ article.content }}</p>
+      <small>Publicado em: {{ article.date }}</small>
+    </div>
+  </div>
